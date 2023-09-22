@@ -41,6 +41,29 @@ function taskFour(price) {
 // taskFour()
 
 
+// 5
+function task5() {
+    let kilo = 10000
+    for (let i = 0.1; i < 1; i+=0.1) {
+        console.log(Math.round(kilo * i));
+        // console.log(i);        
+    }
+}
+// task5()
+
+
+
+// 6
+function task6() {
+    let kilo = 10000
+    for (let i = 1; i < 2; i+=0.2) {
+        console.log(Math.round(kilo * i));        
+    }
+}
+// task6()
+
+
+
 // 7 
 function task7(a, b) {
     let n = 0
@@ -66,12 +89,14 @@ function task8(a, b) {
 // 9 
 function task9(a, b) {
     let n = 0
+    let counter = 0
     for (let i = a; i <= b; i++) {
         n = i ** 2
-        console.log(n); // oxiri tugallanmadi...
+        counter += n
+        console.log(counter);
     }
 }
-// task9(1, 3)
+// task9(1, 5)
 
 // 11, 12
 function tasks(n) {
